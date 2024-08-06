@@ -49,3 +49,22 @@ h1 {
 #search-button:hover {
     background: #004d40;
 }
+
+#weather-result {
+    color: #00796b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+#weather-result img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}
+
+#weather-result h4 {
+    font-size: 19px; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin: 0;
+}
